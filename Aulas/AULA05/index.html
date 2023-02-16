@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvendo listas</title>
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: cornflowerblue;
+            color:white;
+        }
+    </style>
+
+    <h1>Minhas compras</h1>
+
+    <!--lista não ordenada (UL)
+    (LI) - itens da minha lista-->
+    <ul>
+        <li>Batata doce</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <!--Agora usaremos uma lista ordenada, essa lista faz com que os itens 
+    fiquem numerados sua sintaxe é
+    (OL)-Para criar lista. 
+    (LI)Para escrever lista.-->
+    <h2>Listas de Prioridades</h2>
+
+    <ol>
+        <li>Correr</li>
+        <li>Comer</li>
+        <li>Dormir</li>
+    </ol>
+
+    <!--Um bonus a mais para essa aula e o reversed, ele funciona da seguinte maneira, digamos que eu tenha feito a lista ao contrario e eu queira inverter ela, como eu poderia fazer isso.
+        Detalhe ele não inverte a lista e sim sua numeração como no caso da 
+        lista ordenada
+    REVERSED-->
+
+    <h2>Utilizando reversed</h2>
+
+    <h3>Lista de tarefas do dia.</h3>
+    <ol type="I" reversed>
+        <li>Dormir após as 22h</li>
+        <li>Estudar Programação 1H30</li>
+        <li>Jantar</li>
+        <li>Treinar</li>
+        <li>Dormir a tarde</li>
+        <li>Trabalhar no periodo da manhã</li>
+        <li>Acordar as 06h</li>
+    </ol>
+
+    <!--Outra atribuição e o TYPE que gera escolhas de como listar os item,
+    por exemplo com algarismos romanos, ordem alfabetica, númerica, entre outras-->
+
+    <!--Lista sem reversed-->
+    <h2>Utilizando reversed (sem o atributo)</h2>
+
+    <h3>Lista de tarefas do dia.</h3>
+    <ol type="I">
+        <li>Dormir após as 22h</li>
+        <li>Estudar Programação 1H30</li>
+        <li>Jantar</li>
+        <li>Treinar</li>
+        <li>Dormir a tarde</li>
+        <li>Trabalhar no periodo da manhã</li>
+        <li>Acordar as 06h</li>
+    </ol>
+</body>
+</html>
