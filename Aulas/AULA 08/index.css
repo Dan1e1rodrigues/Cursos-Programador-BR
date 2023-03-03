@@ -2,3 +2,15 @@ p{
     color: green;
     background-color: wheat;
 }
+
+#paragrafo1{
+    color:turquoise;
+    background-color: transparent;
+    /*background-color:transparent; Esse atributo transparent faz com que os 
+    elementos de cores fiquem transparentes*/
+}
+
+#paragrafo2{
+    color:bisque;
+    background-color: blueviolet;
+}
