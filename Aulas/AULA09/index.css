@@ -1,0 +1,7 @@
+#paragrafo1{
+    color:black;
+    background-color: rgb(100,50,255);
+    /* possibilidade de usar em Hexadescimal
+    background-color: #ff9000; */
+    /* Tembém e possivel usar a transparencia nas cores, mas e melhor usada como degrade */
+}
