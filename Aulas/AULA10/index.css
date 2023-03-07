@@ -1,0 +1,11 @@
+/* Durante as aulas foram mostradas os background color porém, não aprofundada, esse atributo css faz com que
+possamos mudar a cor de fundo do elemento selecionado. */
+.corrlo{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+
+#paragrafo1{
+    
+}
