@@ -3,9 +3,33 @@ possamos mudar a cor de fundo do elemento selecionado. */
 .corrlo{
     width: 500px;
     height: 300px;
-    background-color: red;
+    background-image: url('./IMG/fundo1.jpg');
+    /*O background-size: cover ele deixa de esticar a imagem assim ajustando ela*/
+    background-size: cover;
 }
 
 #paragrafo1{
     background-color: blue;
 }
+
+.corrloo{
+    /*O background repeat no reapet faz com que a imagem não se repita varias vezes, apenas uma só vez*/
+    background-image: url('./IMG/fundo3.avif ');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+}
+
+body{
+   
+}
+
+/*Outra muita importante e o background-position que define a posição da imagem, de prefencia imagens com fundo diferentes de com apenas cores solidas.*/
+
+/*background-size:contain;
+faz com que a imagem tome maiores proporções*/
+
+/*background-size:cover*/
+
+/* background-attachment: fixed;
+Deixa um efeiro no scroll da página*/
