@@ -1,0 +1,6 @@
+.verde{
+    background-color: green;
+    width: auto;
+    height: 200px;
+    background: linear-gradient(50deg, #1C8394,10%, #154B52,20%,#000B0D,80%,#390D02);
+}
