@@ -5,11 +5,21 @@
     background: linear-gradient(50deg, #1C8394,10%, #154B52,20%,#000B0D,80%,#390D02);
 }
 
-.imgluffy{
-    width: 500px;
+#vermelho{
+    width: 700px;
+    height: 300px;
     background-color: red;
 }
 
+#azul{
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+}
+
+.foto{
+    width: 50%;
+}
 /* cm Centimetros
     mm Milimetrso
     in Polegadas (1in = 96px = 2.54cm)
