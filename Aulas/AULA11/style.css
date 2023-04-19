@@ -4,3 +4,15 @@
     height: 200px;
     background: linear-gradient(50deg, #1C8394,10%, #154B52,20%,#000B0D,80%,#390D02);
 }
+
+.imgluffy{
+    width: 500px;
+    background-color: red;
+}
+
+/* cm Centimetros
+    mm Milimetrso
+    in Polegadas (1in = 96px = 2.54cm)
+    px * pixels (1px = 1/96th of 1in)
+    pt Pontos (1pt = 1/72 of 1 in)
+    pc picas (1pc = 12 pt) */
