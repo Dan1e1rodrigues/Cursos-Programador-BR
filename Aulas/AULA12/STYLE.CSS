@@ -1,19 +1,29 @@
 .container{
-    font-size: 15px;
+    font-size: 30px;
+    text-align: center;
+    background-color: teal;
+    /* background-image: url('https://media.giphy.com/media/NnMH7LDpZTPZS/giphy.gif');
+    background-repeat: no-repeat ; */
 }
 
 .exemplo1{
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .exemplo2{
-    font-size: 2rem;
+    color: red;
+    font-size: 6rem;
 }
 
 .exemplo3{
     font-size: 2rem;
+    text-align: center;
 }
 
 html {
     font-size: 20px;
+}
+
+.imagemnime{
+    text-align: center;
 }
