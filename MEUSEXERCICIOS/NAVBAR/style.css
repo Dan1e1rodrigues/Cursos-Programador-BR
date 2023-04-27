@@ -68,7 +68,7 @@ header{
 
 .navbar a{
     color: var(--text-color);
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     padding: 5px 0;
     margin: 0px 30px;
@@ -178,6 +178,4 @@ header{
     height: 100px;
 }
 
-.seach{
-    
-}
+.seach{}
