@@ -1,0 +1,183 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+
+/* Cores do navbar editar para o padrão do PI & E-commerce*/
+:root{
+    --bg-color:#c9d0ef; 
+    --text-color: #1a1515;
+    --main-color: #2b4ccf;
+}
+
+body{
+    min-height: 100vh;
+    background: var(--bg-color);
+    color:var(--text-color);
+}
+
+/* Configuraçoes do header */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    /*Depois daqui teremos alteraçoes de posição*/
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 10%;
+    transition: all .50s ease;
+    border: 2px solid black;
+}
+
+/* Posição da logo */
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+/*Logo ICON editar aqui*/
+.logo i{
+    color: var(--main-color);
+    font-size: 28px;
+    margin-right: 3px;
+}
+
+/*TEXT da logo editar aqui*/
+.logo span{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+    /* remove os pontos da lista não ordenada */
+    list-style: none;
+}
+
+.navbar a{
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+}
+
+.navbar a.active{
+    color: var(--main-color);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.main a{
+    margin-right: 25px;
+    margin-left: 10px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.user i{
+    color: var(--main-color);
+    font-size: 28px;
+    margin-right: 7px;
+}
+
+.main a:hover{
+    color: var(--main-color);
+}
+
+#menu-icon{
+    font-size: 35px;
+    color:var(--text-color);
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+    /* Codigo responsivo */
+@media (max-width:1280px){
+    header{
+        padding: 14px 2%;
+        transition: .2s;
+    }
+    .navbar a{
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 1090px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position:absolute;
+        top:100%;
+        right: -100%;
+        width: 270px;
+        height: 29vh;
+        background: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+
+    .navbar a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all .50s ease;
+    }
+
+    .navbar a:hover{
+        color: var(--text-color);
+        transform: translateY(5px);
+    }
+
+    .navbar a.active{
+        color: var(--text-color);
+    }
+    
+    .navbar.open{
+        right: 2%;
+    }
+}
+
+#carrossel{
+    background-color: #0f0f0f;
+    height: 100px;
+}
+
+.seach{
+    
+}
