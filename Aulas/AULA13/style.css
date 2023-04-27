@@ -1,0 +1,15 @@
+body{
+    /* Fonte Serifa */
+    /* font-family: serif; */
+    /* Fonte Monospace */
+    /* font-family: monospace; */
+    /* Com Serifa */
+    /* font-family: sans-serif; */
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    font-style: italic;
+    font-size: 1pc;
+    /* Fontes, tamanho, peso e variante */
+    /* Quando usar fontes personalizadas, será mais facil de ver o valor */
+    font-weight: bold;
+    font-variant: small-caps;
+}
