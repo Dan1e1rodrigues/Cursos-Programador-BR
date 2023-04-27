@@ -1,0 +1,47 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Depois colocar o font-family que vc escolheu por pesquisa ou que vc criou mesmo */
+
+/* Vou fazer virar um circulo */
+#primeira{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+#segunda{
+    /* USAR NO PI, TOMAR CUIDADO POIS O TAMANHO IRÁ SER DIFERENTE PARA ALTURA E LARGURA */
+    /* background-color: blue; */
+    height: 100px;
+    /* Tamanho da borda */
+    border-width: 6px;
+    border-style: solid;
+
+    
+    border-color: rgb(16, 92, 180);
+    /* USAR NO PI */
+    border-radius: 15px 20px 30px 40px;
+}
+
+/* Quadrado */
+#terceira{
+    /* background-color: yellow; */
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 10%;
+}
+
