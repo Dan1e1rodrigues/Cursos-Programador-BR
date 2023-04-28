@@ -45,3 +45,41 @@ p {
     border-radius: 10%;
 }
 
+#et{
+    background-color: rgb(54, 54, 146);
+    height: 100px;
+}
+
+#er{
+    background-color: red;
+    /* height: 100px; */
+    /* Aplica Superior e inferior */
+    border:1px solid black;
+    /* Centralizar o texto */
+    margin:10px;
+    padding:100px ;
+    /* Espaçamento
+    margin-top: 10px;
+    Espaçamento inferior
+    margin-bottom: 10px;
+    Direita
+    margin-left: 200px;
+    Esquerda
+    margin-right: 200px; */
+}
+
+#ey{
+    background-color: rgb(28, 164, 13);
+    height: 100px;
+    /* margin-top: 10px; */
+}
+
+/* Os textos tags "P" já vêm com um tamanho definido por isso o margin-top e o marin-bottom estão com  valor zero */
+
+/* Fazendo isso elas ficaram coladas umas nas outras */
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
