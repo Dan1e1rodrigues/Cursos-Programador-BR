@@ -1,0 +1,40 @@
+#primeira{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color:white;
+    padding: 20px;
+    border:solid black 6px;
+    /* O box-sizing irá regular o tamanho da borda, sem ele a borda irá somar com o valor do box. */
+    box-sizing: border-box;
+}
+
+#segunda{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color:white;
+    padding: 20px;
+    border:solid black 20px;
+    /* O box-sizing irá regular o tamanho da borda, sem ele a borda irá somar com o valor do box. */
+    /* box-sizing: border-box; */
+}
+
+#terceira{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    color:white;
+    padding: 20px;
+    border:solid black 20px;
+    /* O box-sizing irá regular o tamanho da borda, sem ele a borda irá somar com o valor do box. */
+    box-sizing: border-box;
+}
+
+body{
+    /* para fora doo elemento. */
+    margin: 0;
+    /* para dentro do elemento. */
+    padding: 0;
+    background-color: aqua;
+}
