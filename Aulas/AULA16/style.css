@@ -1,0 +1,17 @@
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    /* conter o elemneto */
+    /* overflow: hidden; */
+
+    /* Cria um scroll */
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    /* Com o overflow posso desenvolver um scroll horizontal e vertical */
+}
+
+.lorem{
+    font-size: 20px;
+}
