@@ -1,11 +1,23 @@
 div{
-    width: 100px;
+    /* Ao tirar o width ele deixa o background no fundo todo. */
+    /* width: 100px; */
     height: 100px;
     background-color: aquamarine;
+    /* Direita */
+    margin-right: auto;
+    /* Esquerda */
+    margin-left: auto;
+    /* Com os dois ativos irá fazer com que o elemento fique no centro */
+    text-align: center;
 }
 
+/* Texto centralizado */
 p{
-
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Para centralizar o texto, lembrando que centralizar o texto e direfente de centralizar objeto */
+    text-align: center;
 }
 
 img{
