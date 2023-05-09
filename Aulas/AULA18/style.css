@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(4, 27, 236);
+    padding: 5px;
+    font-size: larger;
+    border-radius: 5px 10px;
+}
+
+a:hover{
+    color: white;
+    background-color: rgb(24, 43, 205);
+    padding: 7px;
+}
+
+a:visited{
+    background-color: rgb(23, 29, 84);
+}
+
+a:active{
+    background-color: green;
+}
