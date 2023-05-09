@@ -1,0 +1,23 @@
+ul{
+    /* circulo preechido */
+    /* list-style: disc; */
+    /* circulo com centro não preenchido */
+    /* list-style: circle; */
+    /* list-style: none; */
+
+    /* O tamanho e definido apartir da criação da imagem, 16X16 */
+    /* list-style-image: url('linkkk'); */
+
+    border: 1px solid;
+    list-style-position: inside;
+    padding: 0;
+}
+
+li {
+    border: 1px solid blue;
+}
+
+ol{
+    list-style: upper-alpha;
+}
+
