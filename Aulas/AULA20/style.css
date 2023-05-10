@@ -1,0 +1,33 @@
+.card{
+
+    background-color: rgb(74, 231, 231);
+    width: 500px;
+    margin:auto;
+    padding:30px;
+
+}
+
+li{
+
+    background-color: rgb(30, 122, 202);
+    border:1px solid rgb(43, 40, 40);
+    margin: 10px;
+    padding: 10px;
+    border-radius:10px;
+    cursor: pointer;
+    /* Existem varios tipos de cursores, pointer, help, url e muitos outros sendo 
+    usados de acordo com a necessidade. */
+    /* cursor: url('link'), pointer; */
+    /* para criar o nosso cursor com nossa imagem de preferencia */
+
+}
+
+ol{
+    padding: 30px;
+    list-style: upper-alpha;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
