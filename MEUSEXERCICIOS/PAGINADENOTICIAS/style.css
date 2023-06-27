@@ -1,0 +1,18 @@
+body{
+    font-family: "open sans";
+    margin: 0;
+    padding: 0;
+}
+
+#topbar1{
+    background-color: black;
+    text-align: center;
+    color:white;
+    border:solid 5px;
+    border-bottom-color:orange;
+}
+
+.textcmd{
+    text-align: center;
+    
+}
