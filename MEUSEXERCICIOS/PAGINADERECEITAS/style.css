@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Cor da top bar e da footer: #ff6b28 */
+.top-bar{
+    background-color: #ff6b28;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-icon{
+    width: 20%;
+}
+
+.imagem-ilustrativa{
+    background-image: url("img/bolo.png");
+    background-color: #ff6b28;
+    width: 100%;
+}
+
+.container{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+    background-color: #dcd5d5;
+    border-radius: 2%;
+}
+
+h1{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+    color:#ff6b28;
+    padding: 5%;
+}
+
+h2{
+    color:#ff6b28;
+}
+
+ul > li{
+    padding: 1%;
+}
+
+.button-header{
+    background-color: #ff6b28;
+    width: 25%;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.header-two{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+    background-color: #dcd5d5;
+    border-radius: 2%;
+    margin-top: 5%;
+}
