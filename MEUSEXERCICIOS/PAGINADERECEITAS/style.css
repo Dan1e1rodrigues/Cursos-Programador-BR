@@ -15,7 +15,7 @@ body{
 }
 
 .imagem-ilustrativa{
-    background-image: url("img/bolo.png");
+    background-image: url("img/91f0df3d-lasanha-de-berinjela-tm-gratinados-heleninha-drumont-6470-baixa-2.jpg");
     height: 400px;
     background-size: cover;
 }
@@ -61,6 +61,7 @@ ul > li{
     background-color: #f2f0f0;
     border-radius: 2%;
     margin-top: 5%;
+    line-height: 24px;
 }
 
 .container:hover{
@@ -96,4 +97,22 @@ p{
 
 a{ 
     color: #f2f0f0;
+}
+
+.text-maiusculo{
+    font-size: 20px;
+}
+
+.header-tree{
+    max-width: 888px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f2f0f0;
+    border-radius: 2%;
+    margin-top: 5%;
+    line-height: 24px;
+}
+
+.imagem-tang{
+    width: 100%;
 }
