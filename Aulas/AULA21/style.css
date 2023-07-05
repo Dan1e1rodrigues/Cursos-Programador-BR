@@ -1,0 +1,35 @@
+/* Dislay block Isso faz com que todos os elementos <div> sejam exibidos como blocos ocupando toda a largura disponível. */
+
+/* .gigadis {
+    background-color: red;
+    display: block;
+} */
+
+/* ocupando apenas o espaço necessário para seu conteúdo. */
+/* .gigadis {
+    background-color: blue;
+    display: inline;
+} */
+
+/* .gigadis {
+    background-color: green;
+    display: inline-block;
+} */
+
+/* Isso faz com que todos os elementos <button> sejam exibidos inline, mas com uma largura de 100 pixels e uma altura de 40 pixels. */
+button {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+  }
+
+/* .gigadis {
+    background-color: yellow;
+    display: none;
+} */
+
+.displaypd{
+    display: none;
+    width: 400px;
+}
+
