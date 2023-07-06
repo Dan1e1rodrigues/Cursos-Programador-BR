@@ -4,9 +4,15 @@
         <title>Position</title>
         <meta charset="UTF-8">
             <style>
+                body{
+                    /* margin: 0;
+                    padding: 0; */
+                }
+
                 .quadrado {
                     width: 100px;
                     height: 100px;
+                    /* Esse display-inline-block ele faz com que os elementos fiquem posicionados um do lado do outro. */
                     /* display: inline-block; */
                 }
 
@@ -16,23 +22,24 @@
 
                 .quadrado-blue {
                     background-color: blue;
-                    position: relative;
-                    left: 10px;
+                    position: absolute;
+                    left:110px;
                 }
 
                 .quadrado-green {
                     background-color: green;
                 }
 
-                .quadra {
+                .quadro {
                     width: 500px;
                     height: 400px;
-                    border: 1px solid black; 
+                    border: 2px solid rgb(105, 105, 105); 
                 }
             </style>
     </head>
 
     <body>
+        <!-- Duas classes diferentes uma para conter valor de elemento "Bloco" e outra para conter valor de elemento cor "quadrado..red...blue...green" -->
         <div class="quadro">
             <div class="quadrado quadrado-red"></div>
             <div class="quadrado quadrado-blue"></div>
