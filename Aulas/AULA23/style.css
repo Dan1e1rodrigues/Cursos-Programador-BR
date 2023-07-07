@@ -1,0 +1,33 @@
+body{
+    font-size: 1.2rem;
+}
+
+#i1{
+    width: 10%;
+    float: left;
+    width: 10%;
+}
+    
+/* Propriedade Clear:none, both; */
+p{
+    clear: none;
+}
+
+.flotter {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: orange;
+}
+
+.retunr{
+
+}
+
+li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin: 5px;
+}
