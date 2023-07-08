@@ -10,6 +10,7 @@
         }
 
         .card{
+            position: relative;
             width: 400px;
             height: 200px;
             border:solid green 2px;
@@ -17,10 +18,20 @@
             text-align: center;
         }
 
+        /* Uma das formas de centralizar (Mais facil) */
         .c1{
             background-color: violet;
             line-height: 200px;
         }
+
+        /* Um pouco mais desafiador, pois já mexemos na parte de transformação em outras palavras eixo X e Y. */
+        .c2{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+
     </style>
 </head>
 <body>
