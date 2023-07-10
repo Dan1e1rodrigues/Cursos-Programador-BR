@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- META para deixar o codigo responsivo -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>CSS Intermediario.</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Configurações da caixa */
+        .header{
+            overflow: hidden;
+            margin:auto;
+            width: 80%;
+            background-color: rgb(55, 55, 142);
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        /* Configurações da lista */
+        .menu{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float:right;
+        }
+
+        li{
+            display: inline-block;
+            float: left;
+            color:white;
+            margin-left: 15px;
+        }
+
+        .logo{
+            float: left;
+            color:white;
+        }
+
+        @media screen and (max-width: 500px) {
+           .logo{
+            float: none;
+            text-align: center;
+           }
+
+           .menu{
+            margin-top: 20px;
+            float: none;
+            text-align: center;
+           }
+
+           li{
+            float: none;
+            margin-bottom: 5px;
+            padding: 10px;
+           }
+        }
+
+        /* E possivel usar ele quantas vezes necessario e usando as tags que estão ativas no seu cod. */
+        /* @media screen and (max-width: 500px) {
+           .logo{
+            float: none;
+            text-align: center;
+           } */
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="header">
+
+        <div class="logo">
+            Logo
+        </div>
+
+            <ul class="menu">
+                <li>Login</li>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Produtos</li>
+            </ul>
+    </div>
+
+</body>
+</html>
