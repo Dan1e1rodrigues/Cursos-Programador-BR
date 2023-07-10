@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- META para deixar o codigo responsivo -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+
+        body{
+            font-size: 1.2rem;
+        }
+
+        .header{
+            margin: auto;
+            position: relative;
+            background-color: aqua;
+            width: 80%;
+            height: 100px;
+        }
+
+        .content{
+            position: absolute;
+            width: 70%;
+            height: 70%;
+            background-color: brown;
+
+            top:50%;
+            left: 50%;
+
+            transform: translate(-50%,-50%);
+
+            /* Responsividade para texto */
+            color:black;
+            text-align: center;
+            /* Serve para responsividade */
+            font-size: 6vw;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="content">
+            Óla Mundo
+        </div>
+    </div>
+
+</body>
+</html>
