@@ -14,14 +14,41 @@
     <form method="GET" action="https://www.youtube.com/results">
 
         <!-- digite o nome do video -->
-        <input type="text" name="search_query">
+        <!-- <input type="text" name="search_query"> -->
         
 
         <!-- Botão de submissão onde ira executar a função de busca -->
-        <label for="Pesquisar">
+        <!-- <label for="Pesquisar">
             <input type="submit">
-        </label>
+        </label> -->
 
+        <!-- Exemplos de outros tipos de Inputs -->
+
+        <!-- Senha -->
+        <input type="password" name="Senha">
+            <br>
+        <!-- Input de caixa de texto mais conhecido como checkbox -->
+
+        <!-- Esse Value serve para identificar qual das opções foi selecionada. -->
+        <input type="checkbox" name="Java" value="OP1">Java
+            <br>
+        <input type="checkbox" name="JavaScript" value="OP2">JavaScript
+            <br>
+        <!-- Lembrando que quando voçê seleciona um desses campos o valor sera descelecionado, assim 
+        tendo o mesmo nome ou identificação isso ocorrera -->
+
+        <!-- Um valor importante e o checked ele já inicia com um item selecionado, isso pode ser 
+        utilizado em situações especificas -->
+
+        <input type="radio" name="genero" value="M">Masculino
+        <br>
+        <input type="radio" name="genero" value="F">Feminino
+        <br>
+
+        <input type="submit" value="Salvar">
+
+        <!-- Esse input reseta os valores preenchidos -->
+        <input type="reset" value="Enviar">
     </form>
 
 </body>
