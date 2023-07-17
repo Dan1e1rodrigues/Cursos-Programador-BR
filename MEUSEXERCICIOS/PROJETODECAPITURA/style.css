@@ -1,0 +1,32 @@
+/* Todos os itens da página */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonte para os itens dentro do body */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: #48c5ce;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.title{
+    font-size: 26px;
+}
+
+section{
+    color:white;
+}
