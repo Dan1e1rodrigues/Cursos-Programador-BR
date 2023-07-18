@@ -28,5 +28,50 @@ header{
 }
 
 section{
-    color:white;
+    padding: 20px;
+    background-image: url('./img/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.FormContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding:10px;
+    border:none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    /* Gambiarra para ajeitar a setinha  */
+    background-image: url('./img/arrow.jpg');
+    background-repeat: no-repeat;
+
+    background-position: calc(100% - 10px) center;
+
 }
