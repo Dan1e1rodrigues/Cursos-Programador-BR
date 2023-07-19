@@ -77,6 +77,7 @@ select{
 footer{
     background-color: #202121;
     padding: 40px;
+    text-align: center;
 }
 
 .picture{
@@ -86,6 +87,7 @@ footer{
 .description{
     color: white;
     display:inline-block;
+    text-align: left;
     max-width: 40%;
     margin-left: 40px;
 }
