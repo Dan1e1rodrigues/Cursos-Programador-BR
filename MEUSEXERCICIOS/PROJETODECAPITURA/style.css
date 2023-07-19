@@ -71,7 +71,25 @@ select{
     /* Gambiarra para ajeitar a setinha  */
     background-image: url('./img/arrow.jpg');
     background-repeat: no-repeat;
-
     background-position: calc(100% - 10px) center;
+}
 
+footer{
+    background-color: #202121;
+    padding: 40px;
+}
+
+.picture{
+    width: 160px;
+}
+
+.description{
+    color: white;
+    display:inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
 }
