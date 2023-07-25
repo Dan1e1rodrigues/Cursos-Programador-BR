@@ -1,1 +1,1 @@
-alert("Iniciando estudo em javascript")
+alert("Iniciando estudo em javascript ")
