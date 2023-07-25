@@ -1,8 +1,16 @@
-let nota1 = parseInt(prompt("Digite um número"));
+//Lembrando que ela assume o efeito cascata, gerando (Rodando) tudo de cima para baixo.
+var a ;
 
-let nota2 = parseInt(prompt("Digite outro número"));
+//1.
+a = ("Meu nome e Daniel");
 
-var soma = (nota1 + nota2)
+//2.
+a = ("Meu nome e Louro Sé");
 
-document.write("A soma entre " + nota1 + " é " + nota2 + " e igual a " + soma + "");
+//3.
+a= ("Meu nome e Luffy do Chapeu de palha.");
+
+//Aqui ira imprimir a variavel escrita.
+console.log(a);
+
 
