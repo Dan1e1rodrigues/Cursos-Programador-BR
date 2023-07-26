@@ -16,5 +16,6 @@ Aqui trabalhamos com concatenção
 console.log("1" + "1" + " Concatenação");
 */
 
-var a = "Resultado";
+//NUll e Undefined são valores semelhantes mais um e indefinido e o outro e a certeza de que não possui valor.
+var a = null;
  console.log(a);
