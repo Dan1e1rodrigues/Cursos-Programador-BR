@@ -116,3 +116,10 @@ console.log("sua idade é maior que 65: " + maior65 + "");
 console.log("Sua idade é menor que 10: " + menor10 + "");
 
 console.log("O usuario pode ter acesso a Gratuidade? " + gratuidadeS + "");
+
+// Concatenação e String
+
+var a = "8";
+var b = "Texto" + "" + "Juntando tudo";
+
+console.log(b);
