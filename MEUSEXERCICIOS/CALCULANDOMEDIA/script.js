@@ -4,7 +4,7 @@ function botao() {
     var nome = window.prompt("Qual e o seu nome ?");
     window.alert("Olá, " + nome + "E um prazer conhecer você !!!")
 }
-// Minha primeira tentativa estava correta porém algo deu errado o alert não estava sendo ativado edequadamente.
+// Minha primeira tentativa estava correta porém algo deu errado o alert não estava sendo ativado edequadamente. 
 
 
 
