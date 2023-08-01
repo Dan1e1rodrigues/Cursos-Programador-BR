@@ -1,8 +1,9 @@
-var nome = prompt("Qual o nome do Aluno ?");
+// Para criar uma interação basta criar uma função e colocar a variavel dentreo dela e chamar na função.
+function botao() {
 
-var nota01 = parseFloat(prompt("Qual foi a primeira nota de " + nome + ""));
+    alert("Você apertou no botão");    
+    
+}
 
-var nota02 = parseFloat(prompt("Além de " + nota01 + " qual foi a outra nota de " + nome + ""));
 
-var media = nota01 
 
