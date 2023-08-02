@@ -1,0 +1,10 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+button{
+    /* width: 15%; */
+    padding: 30px;
+    border:solid blue 2px;
+}
+
