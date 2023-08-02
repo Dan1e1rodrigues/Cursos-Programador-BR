@@ -21,7 +21,14 @@ alert(mensagem);
 
 */
 
+var nome = prompt("Qual é o seu nome ?")
+var idade = parseInt(prompt("Qual e a sua idade ?"));
 
+if(idade >= 18){
+    window.alert("Usuario " + nome + " maior de idade!!!")
+}else{
+    window.alert("O usuario " + nome + " ainda e menor de idade, bebêzinho que fofo !!!")
+}
 
 
 
