@@ -1,3 +1,5 @@
+/*
+
 let A = parseInt(prompt("Digite o primeiro número: "));
 
 let B = parseInt(prompt("Digite o segundo número: "));
@@ -16,6 +18,11 @@ else
 mesagem = "Os números informados são iguais ou nada foi informado.";
 
 alert(mensagem);
+
+*/
+
+
+
 
 
 
