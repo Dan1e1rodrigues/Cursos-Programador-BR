@@ -21,7 +21,8 @@ alert(mensagem);
 
 */
 
-var nome = prompt("Qual é o seu nome ?")
+var nome = prompt("Qual é o seu nome ?");
+
 var idade = parseInt(prompt("Qual e a sua idade ?"));
 
 if(idade >= 18){
