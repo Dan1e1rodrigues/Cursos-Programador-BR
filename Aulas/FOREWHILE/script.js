@@ -46,8 +46,9 @@ console.log(alunos[4]);
 
 */
 
-var alunos = new Array ("Daniel","Rian","Henrique","Guilherme","Bernado","Nivaldo","Girafales","Aguiar");
+// var alunos = new Array ("Daniel","Rian","Henrique","Guilherme","Bernado","Nivaldo","Girafales","Aguiar");
 
-for(var i = 0; i < alunos.length; i++){
-    console.log(alunos[i]);
-}
+// for(var i = 0; i < alunos.length; i++){
+//     console.log(alunos[i]);
+// }
+
