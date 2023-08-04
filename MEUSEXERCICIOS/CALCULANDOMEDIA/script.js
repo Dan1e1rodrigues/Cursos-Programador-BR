@@ -18,9 +18,11 @@
 
 function ativa(){
 
-    var nome = prompt("Qual é o seu nome ? ");
+    //Importante resaltar que e necessario identificar o tipo no caso NUMBER 
 
-    let nota1 = prompt("Qual foi a sua primeira nota " + nome + " ?");
+    var nome = Number(prompt("Qual é o seu nome ? "));
+
+    let nota1 = Number(prompt("Qual foi a sua primeira nota " + nome + " ?"));
 
     let nota2 = prompt("Além de " + nota1 + " qual foi a sua outra nota " + nome + " ?")
 
@@ -32,7 +34,7 @@ function ativa(){
 
     //Mesmo conceito do ultimo exercicio, DOM para fazer com que o resultado apareça na tela, no caso
     //As variaveis nome, nota1, nota2 e soma.
-    
+
     res.innerHTML = `<p>Calculando a média final de <mark>${nome}</mark>.</p>`
     res.innerHTML += `<p>As notas obtidas foram <mark>${nota1} e ${nota2}</mark>.</p>` 
     res.innerHTML += `<p>A média final será <mark>${soma}</mark>.</p>` 
