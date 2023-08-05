@@ -20,15 +20,16 @@ function ativa(){
 
     //Importante resaltar que e necessario identificar o tipo no caso NUMBER 
 
-    var nome = Number(prompt("Qual é o seu nome ? "));
+    var nome = prompt("Qual é o seu nome ? ");
 
     let nota1 = Number(prompt("Qual foi a sua primeira nota " + nome + " ?"));
 
-    let nota2 = prompt("Além de " + nota1 + " qual foi a sua outra nota " + nome + " ?")
+    let nota2 = Number(prompt("Além de " + nota1 + " qual foi a sua outra nota " + nome + " ?"));
 
     let soma = (nota1 + nota2) / 2;
-    
-    let res = document.querySelector('section#res');
+
+    // Criando uma variavel que recebera a tag e o id, informando aonde será substituido.
+    let res = document.querySelector('section#res')
 
     //// O += é necessário, pois indica um pedido de "mantenha a frase anterior, adicionando essa outra frase". Se não fosse ele, a linha anterior seria apagada.
 
