@@ -48,6 +48,7 @@ function ativa(){
 
     let res = document.querySelector('section#res')
 
+    // Condicional da media.
     if(media >= 6){
         window.alert("APROVADO")
     }else{
@@ -58,3 +59,47 @@ function ativa(){
     res.innerHTML += `<p>As notas obtidas foram <mark>${primeiraNota} e ${segundaNota}</mark>.</p>` 
     res.innerHTML += `<p>A média final será <mark>${media}</mark>.</p>` 
 }
+
+/*
+    Outra forma de resolver esse codigo e assim:
+    Lembrando que vou usar os fundamentos adquiridos nas aulas
+
+
+    var nomes = ["Daniel", "Rian", "Marlene"];
+    var notasA = [8 , 7, 9];
+    var notasB = [8, 8, 6];
+
+
+    function media(n1,n2) {
+        return (n1 + n2) / 2;
+    }
+
+
+    function passou(media) {
+        if(media > 7) {
+            return "APROVADO";
+        }else{
+            return "REPROVADO";
+        }
+    }
+
+
+    for (var index in nomes) {
+
+        var nota1 = notaA[index];
+        var nota2 = notaB[index];
+
+        var m = media(nota1, nota2);
+
+        console.log(nomes[index]) +
+            " - " +
+            nota1 + 
+            " - " +
+            nota2 +
+            " - " +
+            m +
+            " - " +
+            passou(m));
+            
+    }
+*/ 
