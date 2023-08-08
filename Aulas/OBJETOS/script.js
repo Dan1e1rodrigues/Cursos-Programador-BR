@@ -36,6 +36,7 @@
 
 //Uma função dentro de um objeto
 
+/*
 function calcMedia(n1, n2) {
     return (this.notas[0] + this.notas[1]) / 2;
 }
@@ -70,3 +71,48 @@ console.log(aluno1.media());
 
 console.log(aluno2.nome);
 console.log(aluno2.media());
+*/
+
+//OBJETOS CONSTRUTORES
+
+/*
+var calcMedia = function () {
+
+    return (this.nota1 + this.nota2) / 2;   
+}
+
+var turma = [
+
+    {
+        nome:"Daniel do Corre",
+        nota1: 8,
+        nota2: 6,
+        media: calcMedia
+    },
+    // Vale resaltar que essa pequena virgula e muito importante. 
+
+    {
+        nome:"Arthur do Cimento",
+        nota1: 3,
+        nota2: 10,
+        media: calcMedia
+    }
+]
+
+var aluno = turma[1];
+console.log(aluno);
+console.log(aluno.media);
+*/
+
+//Como resumir isso !
+
+function criarAluno(nome, n1, n2) {
+     return {
+        nome: nome,
+        nota1: n1,
+        nota2: n2,
+        media: function () {
+            return (this.nota1 + this.nota2) / 2;
+        }
+     }
+}
