@@ -116,3 +116,25 @@ function criarAluno(nome, n1, n2) {
         }
      }
 }
+
+//Revisão objeto
+
+var a = {
+        nome: "Daniel",
+        sobrenome: "Aguiar"
+}
+
+console.log(a);
+
+function obj(n, s) {
+    this.nome = n;
+    this.sobrenome = s;
+}
+
+var aA = new obj("Daniel" , "Aguiar")
+
+console.log(a["nome"])
+
+console.log(a.nome)
+console.log(a.sobrenome)
+
