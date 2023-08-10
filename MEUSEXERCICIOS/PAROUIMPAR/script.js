@@ -21,3 +21,15 @@ function ativa() {
     //O numero digitado e o valor PAR ou IMPAR será exibido.
     result.innerHTML = `O número ${pergunta} e ${msg}`
 }
+
+//DICA!
+
+/*
+
+if (num % 2 == 0) {
+        tipo = '<strong>PAR</strong>'
+    } else {
+        tipo = '<strong>ÍMPAR</strong>'
+    }
+
+*/ 
