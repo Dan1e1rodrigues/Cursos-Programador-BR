@@ -11,7 +11,7 @@ function ativa() {
         compara = 'O maior valor é ' + numA + ''
     }else{
         compara = 'O maior valor é ' + numB + ''
-    }if
+    }
 
-    result.innerHTML += `Analisando os valores ${numA} e ${numB}, O maior e o ${compara}` 
+    result.innerHTML += `Analisando os valores  <mark>${numA}</mark> e <mark>${numB}</mark>, o maior e ${compara}`
 }
