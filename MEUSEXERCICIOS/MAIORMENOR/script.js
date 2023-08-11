@@ -1,17 +1,18 @@
 function ativa() {
-    let numA = Number(window.prompt("Digite um número: "));
+    let n1 = Number(window.prompt("Digite um número: "));
 
-    let numB = Number(window.prompt("Digite outro número: "));
+    let n2 = Number(window.prompt("Digite outro número: "));
 
     let result = document.querySelector('section#res')
 
     let compara 
 
-    if(numA > numB){
-        compara = 'O maior valor é ' + numA + ''
-    }else{
-        compara = 'O maior valor é ' + numB + ''
+    if (n1 > n2) {
+        result.innerHTML = `<p>Analisando os valores <mark>${n1}</mark> e <mark>${n2}</mark>, o maior valor é <strong>${n1}</strong></p>`
+    } else if (n1 < n2) {
+        result.innerHTML = `<p>Analisando os valores <mark>${n1}</mark> e <mark>${n2}</mark>, o maior valor é <strong>${n2}</strong></p>`
+    } else {
+        result.innerHTML = `<p>Analisando os valores <mark>${n1}</mark> e <mark>${n2}</mark>, ambos são <strong>IGUAIS</strong></p>`
     }
-
-    result.innerHTML += `Analisando os valores  <mark>${numA}</mark> e <mark>${numB}</mark>, o maior e ${compara}`
 }
+
