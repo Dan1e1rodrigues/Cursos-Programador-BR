@@ -6,3 +6,4 @@ function ativa() {
 
     result.innerHTML = `O que eu recebi do sistema foi <mark>${d}</mark>`
 }
+
