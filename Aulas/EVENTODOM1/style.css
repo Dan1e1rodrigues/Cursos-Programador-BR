@@ -1,0 +1,12 @@
+img {
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+div {
+    display: inline;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: aquamarine;
+    color: aliceblue;
+}
