@@ -1,12 +1,13 @@
-let t1 = document.getElementById("t1");
+function f(){
+    alert("Funcionou")
+}
 
-let t2 = document.getElementById("t2");
+function f1(){
+    console.log("Outra função")
+}
 
-t1.onclick = colocarEmMaiusculo;
-t2.onclick = colocarEmMaiusculo;
+window.onload = function(){
+    let h1 = document.getElementsByTagName("h1")[0];
 
-function colocarEmMaiusculo() {
-
-    this.innerHTML = this.innerHTML.toUpperCase();
-    
+    h1.addEventListener("click", f1)
 }
