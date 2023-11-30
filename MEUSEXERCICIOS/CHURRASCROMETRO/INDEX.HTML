@@ -9,17 +9,21 @@
 </head>
 <body>
     
-    <div>
+    <div class="container">
         <h1>Churrascrometro</h1>
-
-        <div class="churrasC">
             <!--<input type="password" id="password" name="password" placeholder="Sua senha" required>-->
-            <input type="text" name="tipo Quantidade Pessoas Adultos" placeholder="Adultos" required>
-            <input type="text" name="tipo Quantidade Pessoas Criança" placeholder="Crianças" required>
-            <input type="text" name="tipo Duração" placeholder="Duração (h)" required>
-            <input type="submit" name="botão" placeholder="Calcular" required>
-        </div>
+            <input type="number" name="tipo Quantidade Pessoas Adultos" placeholder="Adultos" required>
+            <input type="number" name="tipo Quantidade Pessoas Criança" placeholder="Crianças" required>
+            <input type="number" name="tipo Duração" placeholder="Duração (h)" required>
+            <button>Calcular</button>
+
+            <div id="resultado">
+                <p>10 Kg de Carne</p>
+                <p>5 latas de Cerveja</p>
+                <p></p>
+            </div>
     </div>
 
+    <script src="SCRIPT.JS"></script>
 </body>
 </html>
