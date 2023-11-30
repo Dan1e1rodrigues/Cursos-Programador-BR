@@ -5,30 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Churrascrometro</title>
     <script src="SCRIPT.JS"></script>
-
-    <!-- E melhor ele esta dentro do head para melhorar a performace e carregar o script primiero -->
-    <script>
-
-        function mudarCor() {
-            let h = document.getElementById("h1")[0]
-            h.style.color = "blue";
-        }
-
-        function mudarTexto() {
-
-            let h = document.getElementsByTagName("h1")[0]
-            h.innerHTML = "Novo titulo";
-
-            setTimeout(mudarCor, 3000)
-
-        }
-
-    </script>
+    <link rel="stylesheet" href="STYLE.CSS">
 </head>
 <body>
     
-    <h1>Titulo</h1>
-    <input onclick="mudarTexto()" type="submit" value="Alterar">
+    <div>
+        <h1>Churrascrometro</h1>
+
+        <div class="churrasC">
+            <!--<input type="password" id="password" name="password" placeholder="Sua senha" required>-->
+            <input type="text" name="tipo Quantidade Pessoas Adultos" placeholder="Adultos" required>
+            <input type="text" name="tipo Quantidade Pessoas Criança" placeholder="Crianças" required>
+            <input type="text" name="tipo Duração" placeholder="Duração (h)" required>
+            <input type="submit" name="botão" placeholder="Calcular" required>
+        </div>
+    </div>
 
 </body>
 </html>
