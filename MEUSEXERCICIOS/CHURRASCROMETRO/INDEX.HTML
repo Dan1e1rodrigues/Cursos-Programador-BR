@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Churrascrometro</title>
+    <script src="SCRIPT.JS"></script>
+
+    <!-- E melhor ele esta dentro do head para melhorar a performace e carregar o script primiero -->
+    <script>
+
+        function mudarCor() {
+            let h = document.getElementById("h1")[0]
+            h.style.color = "blue";
+        }
+
+        function mudarTexto() {
+
+            let h = document.getElementsByTagName("h1")[0]
+            h.innerHTML = "Novo titulo";
+
+            setTimeout(mudarCor, 3000)
+
+        }
+
+    </script>
+</head>
+<body>
+    
+    <h1>Titulo</h1>
+    <input onclick="mudarTexto()" type="submit" value="Alterar">
+
+</body>
+</html>
