@@ -1,4 +1,16 @@
-body{
-    width: 0;
-    height: 0;
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 300px;
+    margin: auto;
+    background-color: rgb(113, 172, 223);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
 }

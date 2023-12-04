@@ -4,4 +4,4 @@ const b = 'world';
 
 let resultString = a ;
 
-console.log(resultString, b);
+console.log(resultString, b); 
