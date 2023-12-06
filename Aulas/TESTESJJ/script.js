@@ -29,5 +29,12 @@
 
 // console.log(pessoaTirarAcarteira);
 
-let pr = 
+function getSize(volume) {
+  if (volume < 250) {
+    return 'small';
+  } else if (volume < 350) {
+    return 'medium';
+  }
+}
 
+getSize(300);
