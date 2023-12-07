@@ -42,3 +42,4 @@ function bebidasPP(duracao) {
         return 1000;
     }
 }
+ 
