@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Churrascrometro</title>
-    <script src="SCRIPT.JS"></script>
     <link rel="stylesheet" href="STYLE.CSS">
 </head>
+
 <body>
-    
+
     <div class="container">
         <h1>Churrascrometro</h1>
-            <!--<input type="password" id="password" name="password" placeholder="Sua senha" required>-->
-            <input id="adulto" type="number" name="tipo Quantidade Pessoas Adultos" placeholder="Adultos" required>
-            <input id="criancas" type="number" name="tipo Quantidade Pessoas Criança" placeholder="Crianças" required>
-            <input id="duracao" type="number" name="tipo Duração" placeholder="Duração (h)" required>
-            
-            <button onclick="calcular()">Calcular</button>
+        <input id="adulto" type="number" name="adultos" placeholder="Adultos">
+        <input id="criancas" type="number" name="crianca" placeholder="Crianças">
+        <input id="duracao" type="number" name="duracao" placeholder="Duração (h)">
 
-            <!-- Adicione o elemento resultado aqui -->
-            <div id="resultado"></div>
+        <button onclick="calcular()">Calcular</button>
 
+        <div id="resultado"></div>
     </div>
 
-    
+    <script src="SCRIPT.JS"></script>
 </body>
+
 </html>
