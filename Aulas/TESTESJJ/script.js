@@ -1,40 +1,11 @@
-// const idade = 18;
-// const temAcesso = idade > 18;
+const precoDocombustivel = 5.79;
 
-// console.log(temAcesso);
+const kmPorLitros = 1;
 
-// if (temAcesso){
-//     console.log('Acesso garantido !');
-// }else {
-//     console.log('Acesso negado !');
-// }
+const distanciaEmKm = 100;
 
-// Operadores logicos AND E OR
-// const idade = 16;
+const litrosConsumidos = distanciaEmKm / kmPorLitros
+const valorGasto = litrosConsumidos * precoDocombustivel;
 
-// let verifica = idade >= 16
+console.log(valorGasto.toFixed(2));
 
-// console.log(verifica)
-// const dinheiro = 450;
-
-// const maiorDeIdade = idade >= 18;
-
-// console.log(maiorDeIdade);
-
-// const dinheiroSuficiente = dinheiro >= 500;
-
-// console.log(dinheiroSuficiente);
-
-// const pessoaTirarAcarteira = maiorDeIdade && dinheiroSuficiente;
-
-// console.log(pessoaTirarAcarteira);
-
-function getSize(volume) {
-  if (volume < 250) {
-    return 'small';
-  } else if (volume < 350) {
-    return 'medium';
-  }
-}
-
-getSize(300);
