@@ -1,11 +1,18 @@
-// const precoDocombustivel = 5.79;
+const precoEtanol = 5.79;
+const precoGasolina = 5.62;
+const kmPorLitros = 10;
+const distanciaEmKm = 100;
+const tipoCombustivel = 'Etanol';
+const litrosConsumidos = distanciaEmKm / kmPorLitros
 
-// const kmPorLitros = 1;
+if(tipoCombustivel === 'Etanol'){
+    const valorGasto = litrosConsumidos * precoDocombustivel;
+        console.log(valorGasto.toFixed(2));
+}
+else{
+    const valorGasto = litrosConsumidos * precoGasolina;
+        console.log(valorGasto.toFixed(2));
+}
 
-// const distanciaEmKm = 100;
 
-// const litrosConsumidos = distanciaEmKm / kmPorLitros
-// const valorGasto = litrosConsumidos * precoDocombustivel;
-
-// console.log(valorGasto.toFixed(2));
 
