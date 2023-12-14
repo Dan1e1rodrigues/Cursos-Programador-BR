@@ -1,18 +1,60 @@
-const precoEtanol = 5.79;
-const precoGasolina = 5.62;
-const kmPorLitros = 10;
-const distanciaEmKm = 100;
-const tipoCombustivel = 'Etanol';
-const litrosConsumidos = distanciaEmKm / kmPorLitros
+// const precoEtanol = 5.79;
+// const precoGasolina = 5.62;
+// const kmPorLitros = 10;
+// const distanciaEmKm = 100;
+// const tipoCombustivel = 'Etanol';
+// const litrosConsumidos = distanciaEmKm / kmPorLitros
 
-if(tipoCombustivel === 'Etanol'){
-    const valorGasto = litrosConsumidos * precoDocombustivel;
-        console.log(valorGasto.toFixed(2));
+// if(tipoCombustivel === 'Etanol'){
+//     const valorGasto = litrosConsumidos * precoDocombustivel;
+//         console.log(valorGasto.toFixed(2));
+// }
+// else{
+//     const valorGasto = litrosConsumidos * precoGasolina;
+//         console.log(valorGasto.toFixed(2));
+// }
+
+// let nota1 = 7;
+// let nota2 = 7;
+// let nota3 = 7;
+
+// let mediaFinal = (nota1 + nota2 + nota3) / 3;
+
+// if (mediaFinal < 5){
+//     console.log('Reprovado');
+// }
+
+// else if(mediaFinal >= 5 && mediaFinal <= 7){
+//     console.log('Recuperação');
+// }
+
+// else{
+//     console.log('Aprovado');
+// }
+
+
+let peso = 105;
+let altura = 1.80;
+
+let calculoIMC = peso / Math.pow(altura, 2);
+
+if(calculoIMC <= 18.5){
+    console.log("Abaixo do Peso");
+}
+
+else if(calculoIMC >= 18.5 && calculoIMC <= 25){
+    console.log("Peso normal");
+}
+
+else if (calculoIMC >= 25 && calculoIMC <= 30){
+    console.log("Acima do Peso");
+}
+
+else if (calculoIMC >= 30 && calculoIMC <= 40){
+    console.log("Obeso");
 }
 else{
-    const valorGasto = litrosConsumidos * precoGasolina;
-        console.log(valorGasto.toFixed(2));
+    console.log("Obesidade Grave");
 }
 
-
-
+console.log(calculoIMC);
