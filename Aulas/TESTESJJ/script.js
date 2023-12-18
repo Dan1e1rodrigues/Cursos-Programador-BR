@@ -60,19 +60,67 @@
 // console.log(calculoIMC);
 
 
-const precoEtiqueta = 100;
+// const precoEtiqueta = 100;
 // Caso queira pagar no PIX escolha a opcção 2 e com dinheiro opcçaõ 1
-const formaDePagamento = 1;
+// const formaDePagamento = 1;
 
-if(formaDePagamento === 1){
-    console.log(precoEtiqueta - (precoEtiqueta * 0.1));
+// if(formaDePagamento === 1){
+//     console.log(precoEtiqueta - (precoEtiqueta * 0.1));
+// }
+// else if(formaDePagamento === 2){
+//     console.log(precoEtiqueta - (precoEtiqueta * 0.15));
+// }
+// else if(formaDePagamento === 3){
+//     console.log(precoEtiqueta);
+// }
+// else{
+//     console.log(precoEtiqueta + (precoEtiqueta * 0.1));
+// }
+
+
+// Calculando o IMC com functions
+
+// let peso = 105;
+// let altura = 1.80;
+
+// let calculoIMC = peso / Math.pow(altura, 2);
+
+// if(calculoIMC <= 18.5){
+//     console.log("Abaixo do Peso");
+// }
+
+// else if(calculoIMC >= 18.5 && calculoIMC <= 25){
+//     console.log("Peso normal");
+// }
+
+// else if (calculoIMC >= 25 && calculoIMC <= 30){
+//     console.log("Acima do Peso");
+// }
+
+// else if (calculoIMC >= 30 && calculoIMC <= 40){
+//     console.log("Obeso");
+// }
+// else{
+//     console.log("Obesidade Grave");
+// }
+
+// console.log(calculoIMC);
+
+
+// function escrevamMeuNome(nome) {
+//     console.log('Meu nome é ' + nome + "");
+// }
+
+// escrevamMeuNome('Daniel Rodrigues');
+// escrevamMeuNome('Rian Martins');
+
+function verificarIdade(idade) {
+    if(idade >= 18){
+        console.log('Maior de idade');
+    }
+    else{
+        console.log('Menor de idade')
+    }
 }
-else if(formaDePagamento === 2){
-    console.log(precoEtiqueta - (precoEtiqueta * 0.15));
-}
-else if(formaDePagamento === 3){
-    console.log(precoEtiqueta);
-}
-else{
-    console.log(precoEtiqueta + (precoEtiqueta * 0.1));
-}
+
+verificarIdade(11);
