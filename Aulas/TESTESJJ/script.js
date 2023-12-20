@@ -144,4 +144,6 @@ class Carro {
 const r34 = new Carro ('SkylineR34', 'Prata', 1/16);
 console.log(r34.calcularGastoDePercurso(70, 5));
 
+const camaro = new Carro ('Camaro', 'Amarelo', 1/20);
+console.log(r34.calcularGastoDePercurso(70, 5));
 
