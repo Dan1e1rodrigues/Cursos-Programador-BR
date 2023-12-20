@@ -114,13 +114,34 @@
 // escrevamMeuNome('Daniel Rodrigues');
 // escrevamMeuNome('Rian Martins');
 
-function verificarIdade(idade) {
-    if(idade >= 18){
-        console.log('Maior de idade');
+// function verificarIdade(idade) {
+//     if(idade >= 18){
+//         console.log('Maior de idade');
+//     }
+//     else{
+//         console.log('Menor de idade')
+//     }
+// }
+
+// verificarIdade(11);
+
+class Carro {
+    marca;
+    cor;
+    gastoMedioPorKm;
+
+    constructor(marca, cor, gastoMedioPorKm) {
+        this.marca = marca;
+        this.cor = cor;
+        this.gastoMedioPorKm = gastoMedioPorKm;
     }
-    else{
-        console.log('Menor de idade')
+
+    calcularGastoDePercurso(distanciaEmKm, precoCombustivel){
+        return distanciaEmKm * this.gastoMedioPorKm * precoCombustivel;
     }
 }
 
-verificarIdade(11);
+const r34 = new Carro ('SkylineR34', 'Prata', 1/16);
+console.log(r34.calcularGastoDePercurso(70, 5));
+
+
