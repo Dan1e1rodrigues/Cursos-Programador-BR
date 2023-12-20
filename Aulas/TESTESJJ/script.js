@@ -125,25 +125,38 @@
 
 // verificarIdade(11);
 
-class Carro {
-    marca;
-    cor;
-    gastoMedioPorKm;
+// class Carro {
+//     marca;
+//     cor;
+//     gastoMedioPorKm;
 
-    constructor(marca, cor, gastoMedioPorKm) {
-        this.marca = marca;
-        this.cor = cor;
-        this.gastoMedioPorKm = gastoMedioPorKm;
-    }
+//     constructor(marca, cor, gastoMedioPorKm) {
+//         this.marca = marca;
+//         this.cor = cor;
+//         this.gastoMedioPorKm = gastoMedioPorKm;
+//     }
 
-    calcularGastoDePercurso(distanciaEmKm, precoCombustivel){
-        return distanciaEmKm * this.gastoMedioPorKm * precoCombustivel;
+//     calcularGastoDePercurso(distanciaEmKm, precoCombustivel){
+//         return distanciaEmKm * this.gastoMedioPorKm * precoCombustivel;
+//     }
+// }
+
+// const r34 = new Carro ('SkylineR34', 'Prata', 1/16);
+// console.log(r34.calcularGastoDePercurso(70, 5));
+
+// const camaro = new Carro ('Camaro', 'Amarelo', 1/20);
+// console.log(r34.calcularGastoDePercurso(70, 5));
+
+class Pessoa{
+    nome;
+    pessoa;
+    altura;
+    imc;
+
+    constructor(nome, peso, altura){
+        this.nome = nome;
+        this.peso = peso;
+        this.altura = altura;
     }
 }
-
-const r34 = new Carro ('SkylineR34', 'Prata', 1/16);
-console.log(r34.calcularGastoDePercurso(70, 5));
-
-const camaro = new Carro ('Camaro', 'Amarelo', 1/20);
-console.log(r34.calcularGastoDePercurso(70, 5));
 
