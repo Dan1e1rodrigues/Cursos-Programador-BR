@@ -147,16 +147,16 @@
 // const camaro = new Carro ('Camaro', 'Amarelo', 1/20);
 // console.log(r34.calcularGastoDePercurso(70, 5));
 
-class Pessoa{
-    nome;
-    pessoa;
-    altura;
-    imc;
+// class Pessoa{
+//     nome;
+//     pessoa;
+//     altura;
+//     imc;
 
-    constructor(nome, peso, altura){
-        this.nome = nome;
-        this.peso = peso;
-        this.altura = altura;
-    }
-}
+//     constructor(nome, peso, altura){
+//         this.nome = nome;
+//         this.peso = peso;
+//         this.altura = altura;
+//     }
+// }
 
