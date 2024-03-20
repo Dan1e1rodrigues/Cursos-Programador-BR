@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Potências</title>
+</head>
+<body>
+<h1>Calculadora de Potências</h1>
+<form id="potenciaForm">
+    <label for="numTermos">Número de Termos:</label>
+    <input type="number" id="numTermos" name="numTermos" min="1" required><br><br>
+    
+    <div id="termosInput"></div>
+    
+    <button type="submit">Calcular</button>
+</form>
+
+<div id="resultado"></div>
+
+<script>
+    document.getElementById('potenciaForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        var numTermos = document.getElementById('numTermos').value;
+        var termosInput = document.getElementById('termosInput');
+        termosInput.innerHTML = '';
+
+        for (var i = 0; i < numTermos; i++) {
+            var label = document.createElement('label');
+            label.textContent = 'Termo ' + (i + 1) + ':';
+            termosInput.appendChild(label);
+
+            var input = document.createElement('input');
+            input.type = 'number';
+            input.className = 'termo';
+            input.min = '1';
+            input.max = '9999';
+            input.required = true;
+            termosInput.appendChild(input);
+
+            termosInput.appendChild(document.createElement('br'));
+        }
+    });
+
+    document.getElementById('termosInput').addEventListener('input', function() {
+        var termos = document.getElementsByClassName('termo');
+        var total = 0;
+        var expressaoInvalida = false;
+
+        for (var i = 0; i < termos.length; i++) {
+            if (termos[i].value.length > 1) {
+                var base = parseInt(termos[i].value.toString().slice(0, -1));
+                var expoente = parseInt(termos[i].value.toString().slice(-1));
+                total += Math.pow(base, expoente);
+            } else {
+                expressaoInvalida = true;
+                break;
+            }
+        }
+
+        var resultadoDiv = document.getElementById('resultado');
+        resultadoDiv.textContent = expressaoInvalida ? 'Expressão inválida' : 'Resultado: ' + total;
+    });
+</script>
+</body>
+</html>
