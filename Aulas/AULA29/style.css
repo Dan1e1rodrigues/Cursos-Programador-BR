@@ -1,0 +1,26 @@
+p::first-letter{
+    color:red;
+    font-size: 5rem;
+}
+
+p::first-line{
+    color: blue;
+}
+
+li{
+    list-style: none;
+    /* list-style-image: url('./2991148-removebg-preview.png');
+    margin-left: 500px; */
+}
+
+/* Também temos o before e o after */
+li::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./2991148-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
